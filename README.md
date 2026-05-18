@@ -2,7 +2,7 @@
 
 A deterministic, criteria-driven skill for adjudicating screening hits against sanctions lists, PEP lists, adverse-media sources, and similar watchlists. Designed to auto-clear obvious false positives and confirm obvious true positives, leaving genuinely ambiguous cases for human review with a full evidence package.
 
-Built for [Anthropic's Claude Skills format](https://www.anthropic.com/news/claude-3-5-sonnet-skill).
+Built as a [Claude Skill]((https://docs.claude.com/en/docs/claude-code/skills)) using the [Agent Skills]((https://agentskills.io/)) open standard.
 
 ## What this does
 
@@ -74,7 +74,7 @@ You can also use the skill content directly with any LLM that supports Anthropic
 
 ## Disclaimer
 
-This tool is provided for testing, research, and educational purposes only. It is not a sanctions screening system, does not constitute legal, regulatory, or compliance advice, and is not a substitute for an independent sanctions compliance program or the judgment of a qualified compliance professional. Outputs are heuristic and may contain errors, omissions, or inaccuracies, including in the variation generation and expected match strength tags. Users are solely responsible for their own regulatory obligations and for independently validating any output before relying on it for any compliance, business, or operational decision. No warranty of accuracy, completeness, fitness for a particular purpose, or regulatory sufficiency is made or implied. Sanctrust and the contributors disclaim all liability arising from use of this tool to the fullest extent permitted by law.
+This tool is provided for testing, research, and educational purposes only. It is not a sanctions screening system, does not constitute legal, regulatory, or compliance advice, and is not a substitute for an independent sanctions compliance program or the judgment of a qualified compliance professional. Outputs are heuristic and may contain errors, omissions, or inaccuracies, including in name parsing, identifier comparison, and language-aware research. Users are solely responsible for their own regulatory obligations and for independently validating any output before relying on it for any compliance, business, or operational decision. No warranty of accuracy, completeness, fitness for a particular purpose, or regulatory sufficiency is made or implied. Sanctrust and the contributors disclaim all liability arising from use of this tool to the fullest extent permitted by law.
 
 Sanctions and financial-crime compliance are regulated activities. Use of this skill does not constitute legal advice and does not create a sanctions compliance program. Institutions remain fully responsible for their compliance obligations.
 
